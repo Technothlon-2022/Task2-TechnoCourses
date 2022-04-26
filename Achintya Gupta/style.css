@@ -22,7 +22,7 @@ header{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	height: 10vh;
+	height: 8vh;
 	width: 100vw;
 
 }
@@ -52,9 +52,25 @@ div#head-center a{
 	color: black;
 }
 #head-right{
-	background-color: green;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
 	width: 30%;
 	height: 60%;
 	margin-left: 8%;
 	margin-right: 2%;
+}
+#head-right input{
+	width: 50%;
+	height: 100%;
+}
+#head-right span{
+	width: 8%;
+	height: auto;
+	background-color: white;
+	border-radius: 50%;
+}
+#head-right span img{
+	height: auto;
+	width: 100%;
 }
