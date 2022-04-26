@@ -128,3 +128,43 @@ ul {
         ;
 
 }
+.group-1 {
+        position: static;
+        width: 240.75px;
+        height: 35px;
+        left: 0px;
+        top: 0px;
+        border-radius: 4px;
+        /* border: 1px solid red;*/
+        background-color: white;
+}
+
+.sub-1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        padding: 0px;
+        position: absolute;
+        width: 80px;
+        height: 19px;
+        left: 18px;
+        top: 8px;
+        background: #FFFFFF;
+        /*border: 1px solid red;*/
+}
+
+.group-2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px;
+        position: absolute;
+        width: 110px;
+        height: 30px;
+        left: 243px;
+        top: 1.5px;
+        background: #FFFFFF;
+        /* border: 1px solid black;*/
+}
