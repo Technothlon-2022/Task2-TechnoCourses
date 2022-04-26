@@ -1,0 +1,146 @@
+.section {
+        position: absolute;
+        width: 1036px;
+        height: 450.22px;
+        left: 232.09px;
+        top: 69.25061798095703px;
+        background: linear-gradient(282.24deg, #F8E8E8 5.21%, #FFD1FA 105.14%);
+        /*border: 2px solid red;*/
+}
+
+.sub-section-1 {
+        position: absolute;
+        width: 390px;
+        height: 86px;
+        left: 93.19px;
+        top: 77px;
+        font-family: 'Moderat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 43px;
+        color: #141D26;
+        /*border: 2px solid black;*/
+}
+
+.sub-section-2 {
+        position: absolute;
+        width: 520.06px;
+        height: 283.92px;
+        left: 480.27px;
+        top: 54.89px;
+        background: no-repeat url(casual-life-3d-meditation-crystal-1\ 1.png);
+        background-size: 500px 250px;
+}
+
+.sub-section-3 {
+        position: absolute;
+        width: 249.75px;
+        height: 35px;
+        left: 93.2px;
+        right: 56.02%;
+        top: 185.85px;
+        background: #FFFFFF;
+        box-shadow: 0px 3px 12px rgba(0, 0, 0, 0.12);
+        border-radius: 5px;
+}
+
+.sub-sec-4a {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        padding: 0px;
+        position: absolute;
+        width: 160px;
+        height: 19px;
+        left: 18px;
+        top: 15px;
+        background: #FFFFFF;
+        font-weight: 500;
+        font-size: 18px;
+}
+
+.sub-section-4 {
+        position: absolute;
+        width: 210px;
+        height: 49px;
+        left: 151.19px;
+        top: 360.31px;
+        background: #FFFFFF;
+        border-radius: 8px;
+        /* border: 2px solid black;*/
+}
+
+.sub-section-5 {
+        position: absolute;
+        width: 210px;
+        height: 49px;
+        left: 415.19px;
+        top: 360.31px;
+        background: #FFFFFF;
+        border-radius: 8px;
+        /* border: 2px solid black;*/
+}
+
+.sub-section-6 {
+        position: absolute;
+        width: 210px;
+        height: 49px;
+        left: 670.19px;
+        top: 360.31px;
+        background: #FFFFFF;
+        border-radius: 8px;
+        /* border: 2px solid black;*/
+}
+
+.ellipse5 {
+        position: absolute;
+        width: 48.62px;
+        height: 45.62px;
+        left: 378.07px;
+        top: 60.87px;
+        background: #FFFFFF;
+        box-shadow: -4.8616px -3.88928px 3.88928px rgba(255, 255, 255, 0.26), 2.91696px 4.8616px 7.77855px rgba(117, 222, 255, 0.07);
+        border-radius: 50%;
+}
+
+.ellipse6 {
+        position: absolute;
+        left: 20.88%;
+        right: 56.72%;
+        top: 26.56%;
+        bottom: 47.42%;
+        background: #FED75C;
+        border-radius: 50%;
+}
+
+.ellipse7 {
+        position: absolute;
+        left: 49.22%;
+        right: 27.38%;
+        top: 26.56%;
+        bottom: 47.42%;
+        background: #FF9D93;
+        border-radius: 50%;
+}
+
+.ellipse8 {
+        position: absolute;
+        left: 20.88%;
+        right: 56.72%;
+        top: 55.62%;
+        bottom: 20.37%;
+        background: #9EC2FE;
+        border-radius: 50%;
+}
+
+.ellipse9 {
+        position: absolute;
+        left: 49.22%;
+        right: 27.38%;
+        top: 55.62%;
+        bottom: 20.37%;
+        background: #FCB385;
+        border-radius: 50%;
+}
