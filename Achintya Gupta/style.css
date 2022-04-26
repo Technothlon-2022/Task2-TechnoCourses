@@ -1,0 +1,19 @@
+html, body{
+	padding: 0;
+	overflow-x: hidden;
+	overflow-y: visible;
+	background: yellow;
+}
+* {
+	margin: 0;
+}
+::-webkit-scrollbar{
+	width: 8px;
+	background: rgba(0,0,0,0.9);
+	border-radius: 5px;
+}
+::-webkit-scrollbar-thumb{
+	width: 4px;
+	background: #f1f1f1;
+	border-radius: 5px;
+}
