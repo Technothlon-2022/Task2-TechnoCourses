@@ -17,3 +17,44 @@ html, body{
 	background: #f1f1f1;
 	border-radius: 5px;
 }
+header{
+	background-color: red;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 10vh;
+	width: 100vw;
+
+}
+#head-left{
+	background-color: skyblue;
+	width: 10%;
+	height: 100%;
+	margin-left: 3%;
+}
+#head-center{
+	background-color: blue;
+	width: 24%;
+	height: 100%;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+div#head-center a{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: white;
+	width: 30%;
+	height: 100%;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+}
+#head-right{
+	background-color: green;
+	width: 30%;
+	height: 60%;
+	margin-left: 8%;
+	margin-right: 2%;
+}
