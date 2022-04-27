@@ -1,0 +1,19 @@
+<html>
+      <body>
+          <header>
+              <div id="left"></div>
+              <div id="center">
+                  <a href=""><span>Discover</span></a>
+                  <a href=""><span>Courses</span></a>
+                  <a href=""><span>My Journey</span></a>
+
+              </div>
+              <div id="right">
+                  <input type="search" name="search" placeholder="Search">
+                  <span><a href="#home"><img src="assets\gift.png"></a></span>
+                  <span><a href="#home"><img src="assets\bell.png"></a></span>
+                  <span><a href="#home"><img src="assets\profile.png"></a></span>
+              </div>
+          </header>
+      </body>
+</html>
