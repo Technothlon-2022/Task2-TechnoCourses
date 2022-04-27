@@ -2,7 +2,6 @@ html, body{
 	padding: 0;
 	overflow-x: hidden;
 	overflow-y: visible;
-	background: yellow;
 }
 * {
 	margin: 0;
@@ -18,7 +17,6 @@ html, body{
 	border-radius: 5px;
 }
 header{
-	background-color: red;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -27,13 +25,13 @@ header{
 
 }
 #head-left{
-	background-color: skyblue;
+	background-image:  url("assets/logo_main.png");
 	width: 10%;
 	height: 100%;
 	margin-left: 3%;
+	background-position: center;
 }
 #head-center{
-	background-color: blue;
 	width: 24%;
 	height: 100%;
 	display: flex;
@@ -50,27 +48,54 @@ div#head-center a{
 	text-align: center;
 	text-decoration: none;
 	color: black;
+	transition: 0.1s;
+}
+div#head-center a:hover{
+	background-color: rgba(240, 240, 240, 1.0);
+	border-bottom: 5px solid red;
+}
+div#head-center a:active{
+	border-bottom: 10px solid hotpink;
 }
 #head-right{
 	display: flex;
-	justify-content: space-around;
+	justify-content: flex-end;
 	align-items: center;
 	width: 30%;
 	height: 60%;
-	margin-left: 8%;
-	margin-right: 2%;
+	gap: 15px;
 }
 #head-right input{
 	width: 50%;
 	height: 100%;
 }
 #head-right span{
-	width: 8%;
+	width: 6%;
 	height: auto;
-	background-color: white;
 	border-radius: 50%;
 }
 #head-right span img{
 	height: auto;
 	width: 100%;
+}
+nav{
+	width: 15vw;
+	height: 200vh;
+	background-color: black;
+	margin: 0;
+	position: sticky;
+}
+#home{
+	background: linear-gradient(282.24deg, #F8E8E8 5.21%, #FAD1FA 105.14%);
+	height: 80vh;
+	width: 85vw;
+	position: relative;
+	margin: 0;
+}
+section#home-container{
+	height: 92vh;
+	width: 100vw;
+	background-color: white;
+	position: relative;
+	display: flex;
 }
