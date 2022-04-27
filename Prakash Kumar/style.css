@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.top-nav {
+    background: #FFFAFA;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.06);
+    height: 67.25px;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 67.25px;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav .logo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    color: #000000;
+}
+
+.nav-item li {
+    list-style: none;
+    margin-right: 100px;
+}
+
+.nav-item li:nth-last-of-type(1) {
+    margin: 0;
+}
+
+.nav-item li a {
+    color: #141D26;
+    font-family: 'Moderat', sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.nav-item li .search-box {
+    background: #FFFFFF;
+    border: 0.5px solid #EBE6E6;
+    border-radius: 5px;
+    height: 40px;
+}
+
+.nav-item li .search-box search {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 40px;
+}
+
+.nav-item li .search-box search .input {
+    border: 0px solid;
+    height: 40px;
+}
+
