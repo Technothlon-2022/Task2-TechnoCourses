@@ -1,0 +1,242 @@
+*{
+    margin:0;
+    padding:0;
+}
+header{
+    height: 67.26px;
+    width: 1268.09;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    
+    background: #FFFAFA;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.06);
+}
+.ellipse1{
+    position: absolute;
+left: 11.88%;
+right: 79.72%;
+top: 26.56%;
+bottom: 52.42%;
+
+background:#FED75C;
+}
+
+.ellipse2{
+    position: absolute;
+left: 22.22%;
+right: 69.37%;
+top: 26.56%;
+bottom: 52.42%;
+
+background: #FF9D93;
+}
+
+.ellipse3{
+    position: absolute;
+left: 11.88%;
+right: 79.72%;
+top: 51.62%;
+bottom: 27.37%;
+
+background: #9EC2FE;
+}
+
+.ellipse4{
+    position: absolute;
+left: 22.22%;
+right: 69.37%;
+top: 51.62%;
+bottom: 27.37%;
+
+background: #FCB385;
+}
+
+.courses{
+    position: absolute;
+left: 35.62%;
+right: 20%;
+top: 20.31%;
+bottom: 51.56%;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 600;
+font-size: 17px;
+line-height: 20px;
+
+color: #000000;
+
+}
+
+.byTechno{
+    position: absolute;
+left: 36.42%;
+right: 20%;
+top: 55.09%;
+bottom: 21.88%;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 300;
+font-size: 11px;
+line-height: 13px;
+
+color: #000000;
+}
+
+.Discover{
+    position: static;
+width: 64px;
+height: 19px;
+left: 0px;
+top: 0px;
+
+font-family: 'Moderat';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+
+color: #141D26;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 48px;
+}
+
+.Courses{
+    position: static;
+width: 61px;
+height: 19px;
+left: 112px;
+top: 0px;
+
+font-family: 'Moderat';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+
+color: #141D26;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 0px 48px;
+}
+
+.MyJourney{
+    position: static;
+width: 87px;
+height: 19px;
+left: 221px;
+top: 0px;
+
+font-family: 'Moderat';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+
+color: #141D26;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 2;
+flex-grow: 0;
+margin: 0px 48px;
+}
+
+.box2{
+    position: absolute;
+height: 40px;
+left: 0%;
+right: 36.03%;
+top: 0px;
+
+background: #FFFFFF;
+border: 0.5px solid #EBE6E6;
+border-radius: 5px;
+}
+
+.magnifyingglass{
+    position: absolute;
+left: 12.5%;
+right: 21.88%;
+top: 12.5%;
+bottom: 21.88%;
+
+border: 1px solid #4E5052;
+}
+
+.search{
+    position: static;
+height: 18px;
+left: 45.98%;
+right: 0%;
+top: calc(50% - 18px/2);
+
+font-family: 'Moderat';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+
+color: #4E5052;
+
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 0px 16px;
+}
+
+.Gift{
+    position: absolute;
+left: 29.58%;
+right: 50%;
+top: 10.83%;
+bottom: 68.75%;
+
+border: 1px solid #141D26;
+
+}
+
+.Bell{
+    position: absolute;
+left: 16.02%;
+right: 16.02%;
+top: 12.5%;
+bottom: 25%;
+
+border: 1px solid #141D26;
+}
+
+.box3{
+    position: absolute;
+width: 38.31px;
+height: 38.31px;
+left: 102px;
+top: 0px;
+
+background: #E8E8E8;
+border-radius: 19.1529px;
+}
+
+.User{
+    position: absolute;
+left: 25%;
+right: 25%;
+top: 12.5%;
+bottom: 37.5%;
+
+border: 1.19706px solid #000000;
+}
