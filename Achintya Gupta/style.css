@@ -54,17 +54,19 @@ div#head-center a{
 	color: black;
 	transition: 0.2s;
 	font-family: Roboto;
+	padding-bottom: 5px;
 }
 div#head-center a:hover{
 	background-color: rgba(240, 240, 240, 1.0);
 	border-bottom: 5px solid red;
+	padding-bottom: 0;
 }
 div#head-center a:active{
 	border-bottom: 10px solid hotpink;
 }
 #head-right{
 	display: flex;
-	justify-content: flex-end;
+	justify-content: center;
 	align-items: center;
 	width: 30%;
 	height: 60%;
@@ -93,9 +95,10 @@ div#head-center a:active{
 nav{
 	width: 15vw;
 	height: 200vh;
-	background-color: black;
 	margin: 0;
-	position: sticky;
+	background: #FFFAFA;
+	border: 0.63px solid #E2E3E4;
+	box-sizing: border-box;
 }
 #home{
 	background: linear-gradient(282.24deg, #F8E8E8 5.21%, #FAD1FA 105.14%);
@@ -110,4 +113,24 @@ section#home-container{
 	background-color: white;
 	position: relative;
 	display: flex;
+}
+#nav-top{
+	display: flex;
+	flex-direction: column;
+	height: 40vh;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+}
+.nav-span {
+	width: 80%;
+	display: inline-flex;
+	justify-content: center;
+	height: 15%;
+	align-items: center;
+	gap: 20px;
+}
+.nav-span img{
+	height: 50%;
+	width: auto;
 }
