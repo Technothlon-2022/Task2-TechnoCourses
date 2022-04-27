@@ -1,0 +1,27 @@
+.top-nav{
+    background-color: #FFFAFA;
+  }
+  body{
+    margin: 0px;
+  }
+  .tabs{
+  display: inline-block;
+  position: absolute;
+  left: 300px;
+  }
+  .search{
+display: inline-block;
+position: absolute;
+right: 300px;
+top: 18px;
+  }
+  .logo{
+  display: inline-block;
+  padding: 10px;
+  }
+  .icons
+  {
+      display: inline-block;
+      position: absolute;
+      right: 10px;
+  }
