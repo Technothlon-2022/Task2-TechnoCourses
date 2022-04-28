@@ -120,3 +120,56 @@ nav .part3 {
 
 
 
+
+/* Left nav */
+
+
+.left-nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 264px;
+    height: 1081px;
+
+    background: #FFFAFA;
+    border: 0.63px solid #E2E3E4;
+    box-sizing: border-box;
+
+}
+
+.lnpart1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 135px;
+    height: 248px;
+    margin-top: 24px;
+}
+
+.ln-btn1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    height: 40px;
+    width: 135px;
+}
+
+.lnbtn {
+    height: 24px;
+    width: 24px;
+    margin-left: 8.55px;
+}
+
+.lntxt1 {
+    width: 38px;
+    height: 17px;
+    color: #000000;
+    font-family: 'Moderat';
+    margin-right: 56.45px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+}
