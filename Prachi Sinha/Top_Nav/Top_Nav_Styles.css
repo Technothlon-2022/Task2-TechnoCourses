@@ -1,1 +1,56 @@
+*{
+margin:0;
+padding:0;
+}
 
+.body{
+background: rgb(255,255,255);
+}
+
+.navbar{
+background: rgba(255,250,250,250);
+display: flex;
+centre-content:flex-end;
+padding:7px;
+font-size:100%;
+height:32px;
+width:100%;
+font-family:Arial;
+}
+
+.course{
+font-size:25px;
+margin-left:15px;
+}
+
+.techno{
+left-content;
+margin-left:15px;
+font-size:15px;
+}
+
+.tab1, .tab2, .tab3{
+padding:12px;
+margin-left:10px;
+margin-top:10px;
+margin-right:5px;
+}
+
+.right{
+padding:10px;
+display:flex;
+justify-content:flex-end;
+}
+
+.search{
+margin-right:10px;
+}
+
+.table{
+background: rgb(255,255,255)
+}
+
+.gift, .notify, .user:hover{
+margin-right:7px;
+cursor:pointer;
+}
