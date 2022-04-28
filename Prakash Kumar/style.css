@@ -13,9 +13,10 @@ body {
     height: 67.25px;
 }
 
-.wrapper {
-    max-width: 1200px;
-    margin: 0 auto;
+.logo {
+    margin-left: 44px;
+    width: 160px;
+    height: 67px;
 }
 
 nav {
@@ -24,51 +25,98 @@ nav {
     justify-content: space-between;
     height: 67.25px;
 }
-
-nav ul {
-    display: flex;
-}
-
-nav .logo {
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 17px;
-    color: #000000;
-}
-
-.nav-item li {
-    list-style: none;
-    margin-right: 100px;
-}
-
-.nav-item li:nth-last-of-type(1) {
-    margin: 0;
-}
-
-.nav-item li a {
-    color: #141D26;
-    font-family: 'Moderat', sans-serif;
-    font-size: 16px;
-    text-decoration: none;
-}
-
-.nav-item li .search-box {
-    background: #FFFFFF;
-    border: 0.5px solid #EBE6E6;
-    border-radius: 5px;
-    height: 40px;
-}
-
-.nav-item li .search-box search {
+ 
+nav .part2 .nav1 {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    width: 308px;
+    margin-right: 240px;
+    height: 19px;
+}
+
+.nav1 li {
+    list-style: none;
+}
+
+.nav1 li a {
+    height: 19px;
+
+    font-family: 'Moderat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+
+    color: #141D26;
+}
+
+nav .part3 {
+    display: flex;
+    align-items: center;
+    width: 431px;
+    margin-right: 69px;
+}
+
+.part3 .search-box {
+    background: #FFFFFF;
+    border: 0.5px solid #EBE6E6;
+    border-radius: 5px;
+    width: 275px;
     height: 40px;
 }
 
-.nav-item li .search-box search .input {
-    border: 0px solid;
-    height: 40px;
+.part3 .search-box search {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 38px;
+    border: 0px;
 }
+
+.part3 .search-box search .input {
+    border: 0px transparent;
+    width: 275px;
+    height: 38px;
+}
+
+.search-btn {
+    margin-left: 18px;
+}
+
+.part3 .icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 38.31px;
+    margin-left: 15px;
+    width: 140px;
+}
+
+.nav-button2 {
+    height: 24px;
+    width: 24px;
+}
+
+.nav-button3 {
+    height: 24px;
+    width: 24px;
+}
+
+.nav-button4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 38.31px;
+    width: 38.31px;
+    background: #E8E8E8;
+    border-radius: 19.1537px;
+}
+
+.user-img {
+    height: 19.5px;
+    width: 19.5px;
+}
+
+
 
