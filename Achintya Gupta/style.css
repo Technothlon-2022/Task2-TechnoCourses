@@ -94,25 +94,32 @@ div#head-center a:active{
 }
 nav{
 	width: 15vw;
-	height: 200vh;
+	height: 100%;
 	margin: 0;
 	background: #FFFAFA;
 	border: 0.63px solid #E2E3E4;
 	box-sizing: border-box;
 }
+#container-right{
+	width: 85vw;
+	position: relative;
+	height: auto;
+
+}
 #home{
 	background: linear-gradient(282.24deg, #F8E8E8 5.21%, #FAD1FA 105.14%);
 	height: 80vh;
-	width: 85vw;
+	width: 100%;
 	position: relative;
 	margin: 0;
 }
-section#home-container{
-	height: 92vh;
+section#container{
+	height: auto;
 	width: 100vw;
 	background-color: white;
 	position: relative;
 	display: flex;
+	flex-wrap: wrap;
 }
 #nav-top{
 	display: flex;
@@ -133,4 +140,63 @@ section#home-container{
 .nav-span img{
 	height: 50%;
 	width: auto;
+}
+#central-nav{
+	position: relative;
+	width: 100%;
+	height: 12vh;
+	background: yellow;
+}
+
+#card-main-container{
+	width: 66%;
+	height: auto;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	margin-top: 50px;
+	margin-left: 17%;
+	flex-direction: column;
+	gap: 24px;
+
+}
+
+.card{
+	width: 30%;
+	height: 40vh;
+	background: whitesmoke;
+	background: #FFFFFF;
+	border: 0.626214px solid rgba(0, 0, 0, 0.09);
+	box-sizing: border-box;
+	overflow-y: hidden;
+/* Shadow */
+
+box-shadow: 0px 4px 16px rgba(10, 15, 20, 0.12);
+border-radius: 5px;
+}
+
+#card-subcontainer{
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.card img{
+	width: 100%;
+	height: auto;
+}
+.card figure figcaption{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 0px;
+	width: 90%;
+	margin: 5%;
+	height: 60%;
+}
+.card figure figcaption p{
+	width: 90%;
+	height: auto;
+	
 }
