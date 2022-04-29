@@ -1,0 +1,75 @@
+
+ul li{
+	display: inline-block;
+	list-style: none;
+}
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: #FFFAFA;
+	padding-left: 20px;
+	left: 0%;
+	right: 0%;
+	top: 0%;
+	bottom: 0%;
+	height: 67.25061798095703px;
+	width: 1438.08740234375px;
+	border-radius: 0px;
+	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.06);
+
+}
+
+#nav-centre {
+	height: 19px;
+width: 308px;
+left: 364.42138671875px;
+top: 24.3792724609375px;
+border-radius: 0px;
+justify-content: space-around;
+font-family: Moderat;
+font-size: 16px;
+font-weight: 500;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: left;
+}
+
+#nav-left {
+	align-items: center;
+}
+
+#nav-right {
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	height: 38.30581283569336px;
+	width: 140.30581665039062px;
+	left: 290.75390625px;
+	top: 0px;
+	border-radius: 0px;
+}
+
+#search-bar {
+	background-size: 40px;
+}
+
+#gift {
+	height: 40px;
+	width: 40px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#bell {
+	height: 40px;
+	width: 40px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+#user {
+	height: 40px;
+	width: 40px;
+	padding-left: 20px;
+	padding-right: 20px;
+}

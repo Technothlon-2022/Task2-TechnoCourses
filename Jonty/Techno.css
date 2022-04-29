@@ -1,0 +1,118 @@
+*{margin: 0;}
+#topbar
+{
+    height: 63px;
+    width: 1536px;
+    background: #FFFAFA;
+}
+#courses1
+{
+    height: 20px;
+    width: 63px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 20px;
+    position: absolute;
+    left: 98px;
+    top: 12px;
+}
+#courses2
+{
+    height: 15px;
+    width: 50px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 13px;
+    position: absolute;
+    left: 100px;
+    top: 35px;
+}
+#head1
+{
+    height: 22px;
+    width: 64px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    position: absolute;
+    left: 400px;
+    top: 21px;
+}
+#head2
+{
+    height: 22px;
+    width: 60px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    position: absolute;
+    left: 530px;
+    top: 21px;   
+}
+#head3
+{
+    height: 22px;
+    width: 90px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    position: absolute;
+    left: 650px;
+    top: 21px;    
+}
+#searchbar
+{
+    height: 35px;
+    width: 272px;
+    background-color: white;
+    position: absolute;
+    left: 1040px;
+    top: 14px;
+}
+#search
+{
+    height: 19px;
+    width: 46px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    position: absolute;
+    left: 55px;
+    top: 10px;
+}
+#magnify
+{
+    position: absolute;
+    left: 15px;
+    top: 5px;
+}
+#logo
+{
+    position: absolute;
+    left: 60px;
+    top: 15px; 
+}
+#gift
+{
+    position: absolute;
+    left: 1330px;
+    top: 20px;
+}
+#bell
+{
+    position: absolute;
+    left: 1380px;
+    top: 20px;
+}
+#man
+{
+    position: absolute;
+    left: 1430px;
+    top: 12px;
+}

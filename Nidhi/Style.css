@@ -1,0 +1,31 @@
+.nav1{
+    background-color: #FFFAFA;
+  }
+  .logo{
+  display: inline-block;
+  padding: 10px;
+  }
+  body{
+    margin: 0px;
+  }
+  .tabs{
+  display: inline-block;
+  position: absolute;
+  left: 300px;
+  }
+  .searchbar{
+display: inline-block;
+position: absolute;
+right: 300px;
+top: 18px;
+  }
+  
+  .icons
+  {
+      display: inline-block;
+      position: absolute;
+      right: 10px;
+  }
+  .courses{
+  display: inline-block;
+  }

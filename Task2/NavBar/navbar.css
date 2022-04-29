@@ -1,0 +1,12 @@
+.fcontainer{
+    border: 2px solid grey;
+    height: 45vh;
+    display: flex;
+}
+.item{
+    background-color:bisque;
+    border: 2px solid black;
+    margin:12px;
+    width: 122px;
+    height: 122px;
+}

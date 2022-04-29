@@ -1,0 +1,21 @@
+img {
+    border: 1px;
+  border-radius: 2px;
+  width: 10%;
+  height: 20%;
+}
+#container {
+   display:flex;
+   flex-direction: row;
+   height: auto;
+   justify-content: space-around;  
+   /* along main axis */
+   font-size: 25px;
+   color: black;
+   flex-wrap:wrap;
+   align-items: flex-start;
+   /* along cross axis */
+   border-style: groove;
+   
+   
+}

@@ -1,0 +1,213 @@
+.topnav{
+    display: flex;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    
+    background: #FFFAFA;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.06);
+    position: absolute;
+    width: 1438.09px;
+    height: 67.25px;
+    left: 0px;
+    top: 0px;
+}
+.logo{
+    position: relative;
+    width: 160px;
+    height: 67px;}
+.font{font-family: 'Moderat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    
+    color: #141D26;}
+.discover{position: static;
+    width: 64px;
+    height: 19px;
+    left: 0px;
+    top: 0px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 48px;}
+.nav{
+        display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+
+position: absolute;
+width: 308px;
+left: 364.42px;
+top: 36.25%;
+bottom: 35.5%;
+    }
+.courses{ position: static;
+width: 61px;
+height: 19px;
+left: 112px;
+top: 0px;
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 0px 48px;
+    }
+.journey{
+    position: static;
+width: 87px;
+height: 19px;
+left: 221px;
+top: 0px;
+flex: none;
+order: 2;
+flex-grow: 0;
+margin: 0px 48px;
+}
+.end{
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+
+position: absolute;
+width: 431.06px;
+height: 40px;
+left: 938.26px;
+top: 13.63px;
+
+}
+.icons{display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    
+    position: static;
+    left: 67.45%;
+    right: 0%;
+    top: 0%;
+    bottom: 4.24%;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 15px;}
+.user{position: static;
+    width: 38.31px;
+    height: 38.31px;
+    left: 102px;
+    top: 0px;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 0px 27px;}
+.gift{position: static;
+    width: 24px;
+    height: 24px;
+    left: 0px;
+    top: 7.15px;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 27px;
+    }
+.bell{position: static;
+    width: 24px;
+    height: 24px;
+    left: 51px;
+    top: 7.15px;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 27px;}
+.searchbar{position: static;
+    width: 275.75px;
+    height: 40px;
+    left: 0px;
+    top: 0px;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 15px;}
+.mgsearch{display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px;
+    
+    position: absolute;
+    width: 87px;
+    height: 24px;
+    left: 18px;
+    top: 8px;
+    
+    background: #FFFFFF;}
+.search{position: static;
+    height: 18px;
+    left: 45.98%;
+    right: 0%;
+    top: calc(50% - 18px/2);
+    
+    font-family: 'Moderat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+    
+    
+    color: #4E5052;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 16px;}
+.mg{position: static;
+    width: 24px;
+    height: 24px;
+    left: 0px;
+    top: 0px;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 16px;}
+    .rect{position: absolute;
+        height: 40px;
+        left: 0%;
+        right: 36.03%;
+        top: 0px;
+        
+        background: #FFFFFF;
+        border: 0.5px solid #EBE6E6;
+        border-radius: 5px;}
+
