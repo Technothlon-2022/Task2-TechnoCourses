@@ -7,6 +7,20 @@
         background: linear-gradient(282.24deg, #F8E8E8 5.21%, #FFD1FA 105.14%);
         /*border: 2px solid red;*/
 }
+.sub-new {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        padding: 0px;
+        position: absolute;
+        width: 22.34%;
+        height: 19px;
+        left: 27.03%;
+        top: 8px;
+        background: #FFFFFF;
+        /*border: 1px solid red;*/
+}
 
 .sub-section-1 {
         position: absolute;
