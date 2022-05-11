@@ -1,8 +1,8 @@
 .main-1 {
         position: absolute;
-        width: 1034px;
-        height: 38px;
-        left: 232.09px;
+        width: 81.54%;
+        height: 45px;
+        left: 18.3%;
         top: 510.22px;
         background: linear-gradient(0deg, rgba(255, 255, 255, 0.96), rgba(255, 255, 255, 0.96)), #141D26;
         /*border: 1px solid black;*/
@@ -15,8 +15,8 @@
 
 .underline {
         position: absolute;
-        width: 154.85px;
-        left: 0px;
-        top: 36px;
+        width: 12.58%;
+        left: 0.1%;
+        top: 43px;
         border: 2px solid #C51F5D;
 }
