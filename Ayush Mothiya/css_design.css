@@ -1,0 +1,227 @@
+html,
+body {
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: visible;
+}
+
+* {
+    margin: 0;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    background: rgba(0, 0, 0, 0.9);
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    width: 4px;
+    background: #f1f1f1;
+    border-radius: 5px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 8vh;
+    width: 100vw;
+    background: #FFFAFA;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.06);
+
+}
+
+#head-left {
+    background-image: url("assets/logo_main.png");
+    width: 10%;
+    height: 100%;
+    margin-left: 3%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#head-center {
+    width: 24%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+div#head-center a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 30%;
+    height: 100%;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    transition: 0.2s;
+    font-family: Roboto;
+    padding-bottom: 5px;
+}
+
+div#head-center a:hover {
+    background-color: rgba(240, 240, 240, 1.0);
+    border-bottom: 5px solid red;
+    padding-bottom: 0;
+}
+
+div#head-center a:active {
+    border-bottom: 10px solid hotpink;
+}
+
+#head-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 60%;
+    gap: 15px;
+}
+
+#head-right input {
+    width: 50%;
+    height: 100%;
+    border-radius: 5px;
+    border: 1px solid rgb(230, 230, 230);
+    box-shadow: 2px 3px 0 0 whitesmoke;
+    background-image: url("assets/search.png");
+    text-indent: 30px;
+    background-size: auto 90%;
+    background-repeat: no-repeat;
+}
+
+#head-right span {
+    height: 80%;
+    width: auto;
+    border-radius: 50%;
+}
+
+#head-right span img {
+    height: 100%;
+    width: auto;
+}
+
+nav {
+    width: 15vw;
+    height: 100%;
+    margin: 0;
+    background: #FFFAFA;
+    border: 0.63px solid #E2E3E4;
+    box-sizing: border-box;
+}
+
+#container-right {
+    width: 85vw;
+    position: relative;
+    height: auto;
+
+}
+
+#home {
+    background: linear-gradient(282.24deg, #F8E8E8 5.21%, #FAD1FA 105.14%);
+    height: 80vh;
+    width: 100%;
+    position: relative;
+    margin: 0;
+}
+
+section#container {
+    height: auto;
+    width: 100vw;
+    background-color: white;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#nav-top {
+    display: flex;
+    flex-direction: column;
+    height: 40vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-span {
+    width: 80%;
+    display: inline-flex;
+    justify-content: center;
+    height: 15%;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav-span img {
+    height: 50%;
+    width: auto;
+}
+
+#central-nav {
+    position: relative;
+    width: 100%;
+    height: 12vh;
+    background: yellow;
+}
+
+#card-main-container {
+    width: 66%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 17%;
+    flex-direction: column;
+    gap: 24px;
+
+}
+
+.card {
+    width: 30%;
+    height: 40vh;
+    background: whitesmoke;
+    background: #FFFFFF;
+    border: 0.626214px solid rgba(0, 0, 0, 0.09);
+    box-sizing: border-box;
+    overflow-y: hidden;
+    /* Shadow */
+
+    box-shadow: 0px 4px 16px rgba(10, 15, 20, 0.12);
+    border-radius: 5px;
+}
+
+#card-subcontainer {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card figure figcaption {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    width: 90%;
+    margin: 5%;
+    height: 60%;
+}
+
+.card figure figcaption p {
+    width: 90%;
+    height: auto;
+
+}
