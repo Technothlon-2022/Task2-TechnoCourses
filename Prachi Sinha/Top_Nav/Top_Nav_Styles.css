@@ -82,7 +82,7 @@
 .mid{
     display: flex;
     margin-top: 10px;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     margin-left: 150px;
     justify-content: center;
 }
@@ -93,7 +93,7 @@
     line-height: 19.2px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: space-between;
     padding-left: 60px;
     padding-right: 60px;
