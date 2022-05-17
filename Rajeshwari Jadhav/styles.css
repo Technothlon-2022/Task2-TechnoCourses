@@ -18,6 +18,7 @@ top: 18px;
   .logo{
   display: inline-block;
   padding: 10px;
+  
   }
   .icons
   {
@@ -25,3 +26,7 @@ top: 18px;
       position: absolute;
       right: 10px;
   }
+  .left-nav{
+     width: 15%;
+  }
+ 
