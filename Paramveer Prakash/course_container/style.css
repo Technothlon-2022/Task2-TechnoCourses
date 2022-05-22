@@ -1,8 +1,8 @@
 .main-2a {
         position: absolute;
         height: 320px;
-        left: 300px;
-        right: 690px;
+        left: 23.66%;
+        right: 54.41%;
         top: 600px;
         background: #FFFFFF;
         border: 0.626214px solid rgba(0, 0, 0, 0.09);
@@ -19,7 +19,7 @@
         right: 0%;
         top: 0px;
         background: center url(Rectangle\ 12.png);
-        background-size: 400px 359px;
+        background-size: 147% 292%;
         border: 0.626214px solid rgba(0, 0, 0, 0.09);
         box-sizing: border-box;
         box-shadow: 0px 25.0485px 57.6117px 10.0194px rgba(0, 30, 79, 0.03);
@@ -90,22 +90,22 @@
 .button1 {
         box-sizing: border-box;
         height: 22px;
-        width: 80px;
+        width: 32.5%;
         border: 1.5px solid orange;
         border-radius: 10px;
-        margin: 10px;
-        padding-left: 10px;
+        margin: 4.07%;
+        padding-left: 4.07%;
         color: orange;
 }
 
 .button2 {
         box-sizing: border-box;
         height: 22px;
-        width: 80px;
+        width: 32.5%;
         border: 1.5px solid royalblue;
         border-radius: 10px;
-        margin: 10px;
-        padding-left: 10px;
+        margin:  4.07%;
+        padding-left:  6%;
         color: royalblue;
 }
 

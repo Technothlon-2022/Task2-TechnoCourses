@@ -1,18 +1,32 @@
 .section {
         position: absolute;
-        width: 1036px;
+        width: 81.7%;
         height: 450.22px;
-        left: 232.09px;
+        left: 18.3%;
         top: 69.25061798095703px;
         background: linear-gradient(282.24deg, #F8E8E8 5.21%, #FFD1FA 105.14%);
         /*border: 2px solid red;*/
 }
+.sub-new {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        padding: 0px;
+        position: absolute;
+        width: 22.34%;
+        height: 19px;
+        left: 27.03%;
+        top: 8px;
+        background: #FFFFFF;
+        /*border: 1px solid red;*/
+}
 
 .sub-section-1 {
         position: absolute;
-        width: 390px;
+        width: 37.644%;
         height: 86px;
-        left: 93.19px;
+        left: 9.03%;
         top: 77px;
         font-family: 'Moderat';
         font-style: normal;
@@ -25,19 +39,19 @@
 
 .sub-section-2 {
         position: absolute;
-        width: 520.06px;
+        width: 50.4%;
         height: 283.92px;
-        left: 480.27px;
+        left: 46.54%;
         top: 54.89px;
         background: no-repeat url(casual-life-3d-meditation-crystal-1\ 1.png);
-        background-size: 500px 250px;
+        background-size: 96% 88.34%;
 }
 
 .sub-section-3 {
         position: absolute;
-        width: 249.75px;
+        width: 24.2%;
         height: 35px;
-        left: 93.2px;
+        left: 9.03%;
         right: 56.02%;
         top: 185.85px;
         background: #FFFFFF;
@@ -52,9 +66,9 @@
         align-items: center;
         padding: 0px;
         position: absolute;
-        width: 160px;
+        width: 76.19%;
         height: 19px;
-        left: 18px;
+        left: 8.57%;
         top: 15px;
         background: #FFFFFF;
         font-weight: 500;
@@ -63,9 +77,9 @@
 
 .sub-section-4 {
         position: absolute;
-        width: 210px;
+        width: 20.35%;
         height: 49px;
-        left: 151.19px;
+        left: 14.65%;
         top: 360.31px;
         background: #FFFFFF;
         border-radius: 8px;
@@ -74,9 +88,9 @@
 
 .sub-section-5 {
         position: absolute;
-        width: 210px;
+        width: 20.35%;
         height: 49px;
-        left: 415.19px;
+        left: 40.23%;
         top: 360.31px;
         background: #FFFFFF;
         border-radius: 8px;
@@ -85,9 +99,9 @@
 
 .sub-section-6 {
         position: absolute;
-        width: 210px;
+        width: 20.35%;
         height: 49px;
-        left: 670.19px;
+        left: 64.94%;
         top: 360.31px;
         background: #FFFFFF;
         border-radius: 8px;
@@ -96,9 +110,9 @@
 
 .ellipse5 {
         position: absolute;
-        width: 48.62px;
+        width: 9.349%;
         height: 45.62px;
-        left: 378.07px;
+        left: 72.69%;
         top: 60.87px;
         background: #FFFFFF;
         box-shadow: -4.8616px -3.88928px 3.88928px rgba(255, 255, 255, 0.26), 2.91696px 4.8616px 7.77855px rgba(117, 222, 255, 0.07);

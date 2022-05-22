@@ -1,8 +1,8 @@
 .side-bar {
         position: absolute;
-        width: 234.09px;
+        width: 18.46%;
         height: 1606.29px;
-        left: 0px;
+        left: 0%;
         top: 70px;
         background: #FFFAFA;
         border: 0.63px solid #E2E3E4;
@@ -12,9 +12,9 @@
 
 .bar-1a {
         position: absolute;
-        width: 232.09px;
+        width: 99.14%;
         height: 316.29px;
-        left: 0px;
+        left: 0%;
         top: 0px;
         background: #FFFAFA;
         box-sizing: border-box;
@@ -28,9 +28,9 @@
 
 .bar-1b {
         position: absolute;
-        width: 132.09px;
+        width: 56.427%;
         height: 316.29px;
-        left: 75px;
+        left: 32.04%;
         top: 0px;
         background: #FFFAFA;
         box-sizing: border-box;
@@ -45,9 +45,9 @@
 
 .bar-2a {
         position: absolute;
-        width: 232.09px;
+        width: 99.14%;
         height: 30px;
-        left: 0px;
+        left: 0%;
         top: 340px;
         background: #FFFAFA;
         box-sizing: border-box;
@@ -60,9 +60,9 @@
 
 .bar-2b {
         position: absolute;
-        width: 232.09px;
+        width: 99.14%;
         height: 200px;
-        left: 0px;
+        left: 0%;
         top: 362px;
         background: #FFFAFA;
         box-sizing: border-box;
@@ -74,3 +74,4 @@
         font-weight: 550;
         padding-top: 10px;
 }
+

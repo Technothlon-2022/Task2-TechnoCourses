@@ -1,77 +1,152 @@
-*{
-margin:0;
-padding:0;
+.box{
+    display: flex;
+    background: #FFFAFA;
+    height: 50px;
+    width: 1520px;
+    margin: 0px;
+    padding: 0px;
 }
 
-.body{
-background: rgb(255,255,255);
+.left{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 44px;
 }
 
-.navbar{
-background: rgba(255,250,250,250);
-display: flex;
-centre-content:flex-end;
-padding:7px;
-font-size:100%;
-height:32px;
-width:100%;
-font-family:Arial;
+.ellipse1{
+    height:14.08px;
+    width: 13.45px;
+    position: absolute;
+    left: 63px;
+    top: 17.8px;
+    background-color: #FED75C;
+    border-radius: 50%;
+
 }
 
-.course{
-padding:0px;
-font-size:25px;
-margin-left:15px;
+.ellipse2{
+    height:14.08px;
+    width: 13.45px;
+    position: absolute;
+    left: 79.55px;
+    top: 17.8px;   
+    background-color: #ff9d93;
+    border-radius: 50%;
 }
 
-.techno{
-left-content;
-margin-left:17px;
-font-size:15px;
+.ellipse3{
+    height:14.08px;
+    width: 13.45px;
+    position: absolute;
+    left: 63px;
+    top: 34.58px ;
+    background-color: #9EC2FE;
+    border-radius: 50%;
+}
+
+.ellipse4{
+    height:14.08px;
+    width: 13.45px;
+    position: absolute;
+    left: 79.55px;
+    top: 34.58px;
+    background-color: #FCB385;
+    border-radius: 50%;
+}
+
+
+.Courses{
+    width: 71px;
+    height: 18.84px;
+    margin-top: 5.61px;
+    margin-left: 57px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.sub{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-weight: 100;
+    line-height: 13px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 3px;
+    margin-left: 58.28px;
+}
+
+.mid{
+    display: flex;
+    margin-top: 10px;
+    flex-wrap: nowrap;
+    margin-left: 150px;
+    justify-content: center;
 }
 
 .tabs{
-margin-left:350px;
-padding:7px;
-}
-
-.tab1, .tab2, .tab3{
-padding:12px;
-margin-top:10px;
-}
-
-.tab1{
-margin-left:15px;
-}
-
-.tab2{
-margin-left:50px;
-margin-right:35px;
-}
-
-.tab3{
-margin-left:15px;
-margin-right:25px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.2px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding-left: 60px;
+    padding-right: 60px;
 }
 
 .right{
-padding:7px;
-display:flex;
-margin-left:155px;
-size:35px;
+    display: flex;
+    margin-left: 200px;
+    margin-top: 6px;
 }
 
 .magnify{
-margin-right:10px;
-}
+    border: 0.01em solid ;
+    font-size: 2em;
+    width: 0.4em;
+    height: 0.4em;
+    position: absolute;
+    border-radius: 0.35em;
+    top: 16.63px;
+  }
 
-.form{
-height:25px;
-margin-right:50px;
-width:200px;
-}
+  .magnify::before {
+    content: "";
+    background: black;
+    position: absolute;
+    right: -0.25em;
+    bottom: -0.1em;
+    width: 0.35em;
+    height: 0.08em;
+    transform: rotate(45deg);
+  }
 
-.gift, .notify, .user:hover{
-margin-right:25px;
-cursor:pointer;
-}
+  .search{
+    margin-left: 30px;
+    height: 25px;
+    width: 225px;
+    border: 0.5px solid #ebe6eb;
+    border-radius: 5px;
+  }
+
+  .user{
+      position: absolute;
+      margin-left: 375px;
+      margin-top: 5px;
+  }
+
+  .notify{
+    position: relative;
+    margin-left: 20px;
+    margin-top: 3px;
+  }
+
+  .gift{
+      margin-left: 20px;
+      margin-top: 5px;
+  }
