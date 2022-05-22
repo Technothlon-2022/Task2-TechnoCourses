@@ -29,3 +29,392 @@ top: 18px;
   .courses{
   display: inline-block;
   }
+  .nav2{
+    position: static;
+width: 135px;
+height: 248px;
+left: 0px;
+top: 0px;
+
+
+/* Inside auto layout */
+
+
+order: 0;
+
+margin: 12px 0px;
+}
+/*#main-table{
+padding: 0px;
+
+position: static;
+width: 135px;
+height: 248px;
+left: 70px;
+top: 0px;
+order: 0;
+margin: 12px 0px;
+}*/
+
+
+#home{
+    justify-content: center;
+align-items: center;
+padding: 0px;
+
+position: absolute;
+width: 70px;
+left: 8.55px;
+top: 19.63%;
+bottom: 20.37%;
+
+}
+#Compass
+{
+    justify-content: center;
+align-items: center;
+padding: 0px;
+
+position: absolute;
+width: 82px;
+left: 8.55px;
+top: 25.63%;
+bottom: 20.37%;
+
+}
+#Book{
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+position: absolute;
+width: 87px;
+left: 8.55px;
+top: 31.63%;
+bottom: 20.37%;
+}
+#GitMerge{
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+position: absolute;
+width: 93px;
+left: 8.55px;
+top: 37.63%;
+bottom: 20.37%;
+}
+#PokerChip{
+    justify-content: center;
+align-items: center;
+padding: 0px;
+
+position: absolute;
+width: 110px;
+left: 8.55px;
+top: 43.63%;
+bottom: 20.37%;
+
+
+}
+#space{
+    position: absolute;
+width: 105px;
+height: 14px;
+left: 15px;
+top: 320.08px;
+
+font-family: 'Moderat';
+font-style: 15px;
+font-weight: 700;
+font-size: 14px;
+line-height: 14px;
+
+
+}
+#Personal{
+    padding: 0px;
+
+position: absolute;
+width: 85px;
+height: 192px;
+left: 25px;
+top: 354px;
+
+
+}
+#Bookmarks{
+    position: static;
+width: 71px;
+height: 17px;
+left: 0px;
+top: 0px;
+
+font-family: 'Moderat';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+
+/* identical to box height */
+
+color: #141D26;
+}
+#Timelines{
+    position: static;
+width: 60px;
+height: 17px;
+left: 0px;
+top: 35px;
+
+font-family: 'Moderat';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+
+/* identical to box height */
+
+color: #141D26;
+
+
+}
+#Comm{
+    position: static;
+width: 85px;
+height: 17px;
+left: 0px;
+top: 70px;
+
+font-family: 'Moderat';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+
+/* identical to box height */
+
+color: #141D26;
+
+
+}
+#Posts{
+    position: static;
+width: 36px;
+height: 17px;
+left: 0px;
+top: 105px;
+
+font-family: 'Moderat';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+
+/* identical to box height */
+
+color: #141D26;
+
+
+}
+#Peers{
+position: static;
+width: 36px;
+height: 17px;
+left: 0px;
+top: 140px;
+
+font-family: 'Moderat';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+
+/* identical to box height */
+
+color: #141D26;
+}
+#Archieve{
+    position: static;
+width: 49px;
+height: 17px;
+left: 0px;
+top: 175px;
+
+font-family: 'Moderat';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+
+/* identical to box height */
+
+color: #141D26;
+
+
+
+
+}
+/*Central task*/
+#heading{
+position: absolute;
+width: 444px;
+height: 86px;
+left: 251.19px;
+top: 77px;
+
+font-family: 'Moderate';
+font-style: normal;
+font-weight: 500;
+font-size: 26px;
+line-height: 33px;
+
+color: #141D26;
+}
+#searchbar{
+position: absolute;
+height: 40px;
+left: 20%;
+right: 58.65%;
+top: 188.85px;
+
+background: #FFFFFF;
+box-shadow: 0px 3px 12px rgba(0, 0, 0, 0.12);
+border-radius: 5px;
+}
+#casual{
+position: absolute;
+width: 460.06px;
+height: 123.92px;
+left: 516.27px;
+bottom: 0.89px;
+
+background: url(casual-life-3d-meditation-crystal-1.png);
+}
+#Premium{
+position: absolute;
+width: 195px;
+height: 49px;
+left: 81.19px;
+top: 193.31px;
+
+background: #FFFFFF;
+border-radius: 8px;
+}
+#Peer{
+    position: absolute;
+width: 195px;
+height: 49px;
+left: 311.19px;
+top: 193.31px;
+
+background: #FFFFFF;
+border-radius: 8px;
+}
+#Basic{
+position: absolute;
+width: 195px;
+height: 49px;
+left: 531.19px;
+top: 193.31px;
+
+background: #FFFFFF;
+border-radius: 8px;
+}
+#Box{
+    position: absolute;
+width: 1177px;
+height: 493px;
+left: 201px;
+top: 65px;
+
+background: linear-gradient(282.24deg, #F8E8E8 5.21%, #FFD1FA 105.14%);
+}
+/*Central nav*/
+
+
+#Centralnav{
+    position: absolute;
+width: 1174px;
+height: 38px;
+left: -50px;
+top: 320.22px;
+
+background: linear-gradient(0deg, rgba(255, 255, 255, 0.96), rgba(255, 255, 255, 0.96)), #141D26;
+}
+#Design{
+    width: 55px;
+height: 22px;
+display: inline-block;
+font-family: 'Moderat';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+padding: 30px;
+/* identical to box height */
+
+color: #C51F5D;
+}
+#WebD{
+    width: 150px;
+height: 22px;
+display: inline-block;
+font-family: 'Moderat';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+padding: 30px;
+/* identical to box height */
+
+color: rgba(20, 29, 38, 0.76);
+
+
+
+}
+#Prod-design{
+    width: 125px;
+height: 22px;
+display: inline-block;
+font-family: 'Moderat';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+padding: 60px;
+/* identical to box height */
+
+color: rgba(20, 29, 38, 0.76);
+}
+#AppD{
+    width: 147px;
+height: 22px;
+display: inline-block;
+font-family: 'Moderat';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+padding: 30px;
+/* identical to box height */
+
+color: rgba(20, 29, 38, 0.76);
+
+
+
+}
+#Productivity{
+width: 99px;
+height: 22px;
+display: inline-block;
+font-family: 'Moderat';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+padding: 30px;
+/* identical to box height */
+
+color: rgba(20, 29, 38, 0.76);
+}
