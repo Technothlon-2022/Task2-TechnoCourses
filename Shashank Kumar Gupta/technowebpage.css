@@ -1,0 +1,134 @@
+#main-heading {
+    background-color: pink;
+}
+
+#main-heading ul {
+    list-style: none;
+
+}
+
+#main-heading ul li {
+    display: inline-block;
+
+
+}
+
+#main-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* #main-heading div {
+    display: inline-block;
+} */
+#span1 {
+    margin-top: 10px;
+    width: 200px;
+
+}
+
+#span6 {
+    width: 30px;
+}
+
+#span3 {
+    margin-top: 15px;
+    margin-right: 22px;
+}
+
+#span2 {
+    margin-top: 15px;
+}
+
+header {
+    margin: 0px;
+    padding: 0px;
+}
+
+#span2 li a {
+    text-decoration: none;
+    color: black;
+
+}
+
+#span2 li a:hover {
+    color: blue;
+    border-bottom: 2px solid blue;
+}
+
+#span4 li:hover {
+    border: 1px solid black;
+    border-radius: 70%;
+    box-shadow: 0px 0px 3px 4px aqua;
+}
+
+#span1 li i {
+    font-size: 40px;
+}
+
+header {
+    height: 60px;
+}
+
+#span3 button {
+    height: 22px;
+    background-color: rgb(49, 28, 188);
+    margin-left: -5px;
+}
+
+aside li a {
+    text-decoration: none;
+    color: black;
+
+}
+
+#aside li {
+    list-style: none;
+    /* margin-top: 15px; */
+    /* margin-bottom: 15px; */
+    padding-top: 15px;
+}
+
+aside {
+    width: 20vw;
+    background-color: aquamarine;
+    height: 100vh;
+    margin-top: 0px;
+}
+
+#personalspace {
+    padding-top: 10px;
+}
+
+
+#personalspace li {
+    list-style: none;
+    /* margin-top: 15px; */
+    /* margin-bottom: 15px; */
+    padding-top: 10px;
+    padding-left: 19px;
+}
+
+#aside li a:hover {
+    color: blue;
+    border-bottom: 2px solid black;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+aside {
+    display: inline-block;
+}
+
+main {
+    display: inline-block;
+    vertical-align: top;
+}
+
+/* #div1 {
+    height: 50px;
+    width: 50px;
+    background-color: aqua;
+} */
