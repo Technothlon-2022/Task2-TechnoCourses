@@ -1,0 +1,225 @@
+@media only screen and (max-width:1250px){
+    .right-box{
+        display: none;
+        position: relative;
+        height: 50px;
+    }
+    ul{
+        flex-direction: column;
+        display: none;
+    }
+    .middle{
+        padding: 10px;
+    }
+    .logo{
+        position: relative;
+        height: 10vh;
+        width:25%;
+        top: -3px;
+    }
+    .subline,.courses,.highlight{
+        display:none;
+        position: relative;
+    }
+    .line{
+        width: 33px;
+        height: 3px;
+        background-color: black;
+        margin: 5px 3px;
+    }
+    .burger{
+        position: absolute;
+        right: 3%;
+        top: 10px;
+        cursor: pointer;
+    }
+    .box{
+        height: 8.5vh;
+        /*border: 2px solid red;*/
+    }
+    .side-bar{
+        position: relative;
+        top:8.6vh;
+        width: 10%;
+    }
+    .bar-1b,.bar-2a,.bar-2b{
+        display: none;
+    }
+    .bar-1a{
+        position: relative;
+        padding-left: 40%;
+        padding-top: 10px;
+    }
+    .section {
+        position: relative;
+        width:90%;
+        height:102vh;
+        left: 10%;
+        top:-256.5vh;
+    }
+    .sub-section-1 {
+        position: absolute;
+        width: 75%;
+        left: 15%;
+        top: 7vh;
+    }
+    .sub-section-3 {
+        position: absolute;
+        width: 60%;
+        height:7vh;
+        left: 15%;
+        top: 25vh;
+    }
+    .sub-section-2 {
+        position: absolute;
+        width: 70.4%;
+        left:15%;
+        top:45vh;
+    }
+    .sub-new {
+        position: absolute;
+        left: 29%;
+        top: 2vh;
+    }
+    .sub-section-4,.sub-section-5,.sub-section-6,.underline{
+        display: none;
+    }
+    .main-1 {
+        position:relative;
+        width:80%;
+        left: 15.3%;
+        top:-243vh;
+        background:rgba(128, 128, 128, 0.465);
+        border-radius: 10px;
+    }
+    .frontend span,.serverside span,.android span{
+        display: none;
+    }
+    .frontend::after{
+        content: 'FrontEnd';
+    }
+    .serverside::after{
+        content: 'Serverside';
+    }
+    .android::after{
+        content: 'Android';
+    }
+    .main-2c,.main-2d,.main-2e,.main-2f,.main-2g,.main-2h,.main-2i{
+        display: none;
+    }
+    .topcourses{
+        display: block;
+        position:relative;
+        left: 40%;
+        top: -259vh;
+        font-size: 30px;
+    }
+    .resp-sub-section{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        border-radius: 10px;
+        background-color: #FFFAFA;
+        position: absolute;
+        top: 90vh;
+        left: 10%;
+        width: 80%;
+        padding: 10px;
+        font-size: 18px;
+    }
+    .main-2a{
+        position: relative;
+        height: 64vh;
+        left:15%;
+        width: 80%;
+        top: -245vh;
+    }
+    .main-2a1 {
+        position:absolute;
+        height: 27vh;
+    }
+    .main-2a2 {
+        position:relative;
+        height:18vh;
+        left: 0%;
+        right: 0%;
+        top:31vh;
+    }
+    .resp-main{
+        display: block;
+        position: absolute;
+        top: 29vh;
+        left: 5%;
+}
+.main-2b{
+    position: relative;
+    height: 64vh;
+    left:15%;
+    width: 80%;
+    top: -241vh;
+}
+.main-2b1 {
+    position:absolute;
+    height:27vh;
+}
+.main-2b2 {
+    position:relative;
+    height:18vh;
+    left: 0%;
+    right: 0%;
+    top:31vh;
+}
+.resp-list{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+    top: 8.6vh;
+    width: 100%;
+}
+.v-resp{
+    display: none;
+}
+.list-item{
+    background-color: rgb(246, 216, 226);
+    padding: 4px;
+    font-weight: 600;
+    margin-bottom: 1px;
+}
+.list-item:hover{
+    background-color: rgb(230, 129, 163)
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+/* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    left: 70%;
+    background-color: #f1f1f1;
+    width: 25%;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 10px 10px;
+    text-decoration: none;
+    display: block;
+    font-weight: 600;
+  }
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: rgb(230, 129, 163)
+  }
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown:hover .dropbtn {
+    background-color:rgb(230, 129, 163)
+}
+}
