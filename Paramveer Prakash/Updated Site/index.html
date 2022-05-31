@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technothlon Task-01</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/a28e188e67.js" crossorigin="anonymous"></script>
+    <style>
+        input:focus{
+            outline: none;
+        }
+        input{
+            border: none;
+            padding-left: 5%;
+        }
+    </style>
+</head>
+<body>
+    <div class="resp-list v-resp">
+        <div class="list-item">Discover</div>
+        <div class="list-item">Courses</div>
+        <div class="list-item">My Journey</div>
+        <div class="dropdown">
+            <div class="list-item dropbtn">Personal Space</div>
+            <div class="dropdown-content">
+            <a href="#">Bookmarks</a>
+            <a href="#">Timelines</a>
+            <a href="#">Communities</a>
+            <a href="#">Posts</a>
+            <a href="#">Peers</a>
+            <a href="#">Archive</a>
+            </div>
+        </div>
+    </div>
+<div class="container">
+ <div class="box">
+        <div class="logo">
+             <div class="ellipse1"></div>  
+             <div class="ellipse2"></div>  
+             <div class="ellipse3"></div>  
+             <div class="ellipse4"></div> 
+             <div class="courses">Courses</div> 
+             <div class="subline">by Techno</div>              
+        </div>
+        <div class="middle">
+            <ul>
+                <li class="tabs">Discover</li>
+                <li class="tabs">Courses</li>
+                <li class="tabs">My Journey</li>
+            </ul>
+        </div>
+        <div class="right-box">
+            <div class="group-1">
+                <div class="sub-1">
+                    <div class="magnify" id="search" onclick="hideContent()"><i class="fas fa-search"></i></div>
+                    <input id="searchBar" type="text" placeholder="Search">
+                </div>
+            </div>
+            <div class="group-2">
+                <i class="fas fa-gift" style="font-size:20px"></i>
+                <i class="far fa-bell" style="font-size:18px"></i>
+                <i class='far fa-user-circle' style='font-size:22px'></i>
+            </div>
+        </div>
+    <div class="highlight">
+
+    </div>
+    <div class="burger">
+    <div class="line"></div>
+    <div class="line"></div>
+    <div class="line"></div>
+    </div>
+ </div>
+ <div class="side-bar">
+  <div class="bar-1a">
+    <div><a href="#"><i class="fas fa-home" style="color:black ;"></i></a></div>
+    <div><a href="#"><i class="fas fa-compass" style="color:black ;"></i></a></div>
+    <div><a  href="#"><i class="fas fa-book" style="color: red;"></i></a></div>
+    <div><a href="#"><i class="fas fa-share-alt" style="color:black ;"></i></a></div>
+    <div><a  href="#"><i class="far fa-life-ring" style="color:black ;"></i></a></div>
+  </div>
+  <div class="bar-1b">
+    <div>Home</div>
+    <div>Explore</div>
+    <div style="color: red;">Courses</div>
+    <div>Timelines</div>
+    <div>Hackathons</div>
+  </div>
+  <div class="bar-2a">
+      <div style="color: gray;font-weight: 700;font-size: 12px;">PERSONAL SPACE</div>
+  </div>
+  <div class="bar-2b">
+      <div>Bookmarks</div>
+      <div>Timelines</div>
+      <div>Communities</div>
+      <div>Posts</div>
+      <div>Peers</div>
+      <div>Archive</div>
+  </div>
+ </div>
+<div class="section">
+    <div class="sub-section-1">
+        A simple and sweet learning platform
+    </div>
+    <div class="sub-section-2">
+        <div class="ellipse5">
+            <div class="ellipse6"></div>
+            <div class="ellipse7"></div>
+            <div class="ellipse8"></div>
+            <div class="ellipse9"></div>
+        </div>
+    </div>
+    <div class="sub-section-3">
+            <div class="sub-new">
+                <div class="magnify"><i class="fas fa-search"></i></div>
+                <input type="text" placeholder="Search">
+            </div>
+    </div>
+    <div class="sub-section-4">
+        <div class="sub-sec-4a">
+        <div><i class="fas fa-gift" style="font-size:22px;color: red;"></i></div>
+        Premium Courses
+        </div>
+    </div>
+    <div class="sub-section-5">
+        <div class="sub-sec-4a">
+        <div><i class="fas fa-user-friends" style="color: red;"></i></div>
+        Peer Learning
+        </div>
+    </div>
+    <div class="sub-section-6">
+        <div class="sub-sec-4a">
+        <div><i class="fas fa-sync" style="color: red;"></i></div>
+        Basic to advanced
+        </div>
+    </div>
+    <div class="resp-sub-section">
+        <div>Premium Courses</div>
+        <div>|</div>
+        <div>Peer Learning</div>
+        <div>|</div>
+        <div>Basic to advanced</div>
+    </div>
+
+</div>
+ <div class="main" id="content">
+     <div class="main-1">
+         <div style="color: red;">Design</div>
+         <div class="frontend"><span>Web Development</span></div>
+         <div class="serverside"><span>Product Design</span></div>
+         <div class="android"><span>App Development</span></div>
+         <div><span>Productivity</span></div>
+         <div class="underline"></div>
+     </div>
+     <div class="topcourses">Top Courses</div>
+     <div class="main-2">
+        <div class="main-2a">
+            <div class="main-2a1">
+
+            </div>
+            <div class="resp-main">
+                <i class="fa fa-star" style="color:rgb(245, 226, 22) ;"></i>
+                <i class="fa fa-star"style="color:rgb(245, 226, 22);"></i>
+                <i class="fa fa-star"style="color:rgb(245, 226, 22)"></i>
+                <i class="fa fa-star" style="color: gray;"></i>
+                <i class="fa fa-star" style="color: gray;"></i>
+            </div>
+            <div class="main-2a2">
+                <div class="main-2a2-1">
+                    <div class="main-2a2-1a">
+                        Git Hub : Ultimate Master course
+                    </div>
+                    <div class="main-2a2-1b">
+                        Psychology is the science of mind and behaviour.Psychology includes the study for conscious and unconscious            
+                    </div>
+                    <div class="main-2a2-1c">
+                        Tags
+                        <div class="button1">Creative</div>
+                        <div class="button2">Design</div>
+                    </div>
+                </div>
+                <div class="main-2a2-2">
+                    Learn More
+                </div>
+            </div>
+        </div>
+        <div class="main-2b">
+            <div class="main-2b1">
+
+            </div>
+            <div class="resp-main b">
+                <i class="fa fa-star" style="color:rgb(245, 226, 22) ;"></i>
+                <i class="fa fa-star"style="color:rgb(245, 226, 22);"></i>
+                <i class="fa fa-star"style="color:rgb(245, 226, 22)"></i>
+                <i class="fa fa-star" style="color:rgb(245, 226, 22) ;"></i>
+                <i class="fa fa-star" style="color: gray;"></i>
+            </div>
+            <div class="main-2a2">
+                <div class="main-2a2-1">
+                    <div class="main-2a2-1a">
+                        Git Hub : Ultimate Master course
+                    </div>
+                    <div class="main-2a2-1b">
+                        Psychology is the science of mind and behaviour.Psychology includes the study for conscious and unconscious            
+                    </div>
+                    <div class="main-2a2-1c">
+                        Tags
+                        <div class="button1">Creative</div>
+                        <div class="button2">Design</div>
+                    </div>
+                </div>
+                <div class="main-2a2-2">
+                    Learn More
+                </div>
+            </div>
+        </div>
+        <div class="main-2c">
+            <div class="main-2c1">
+
+            </div>
+            <div class="main-2a2">
+                <div class="main-2a2-1">
+                    <div class="main-2a2-1a">
+                        Git Hub : Ultimate Master course
+                    </div>
+                    <div class="main-2a2-1b">
+                        Psychology is the science of mind and behaviour.Psychology includes the study for conscious and unconscious            
+                    </div>
+                    <div class="main-2a2-1c">
+                        Tags
+                        <div class="button1">Creative</div>
+                        <div class="button2">Design</div>
+                    </div>
+                </div>
+                <div class="main-2a2-2">
+                    Learn More
+                </div>
+            </div>
+        </div>
+        <div class="main-2d">
+            <div class="main-2d1">
+
+            </div>
+            <div class="main-2a2">
+                <div class="main-2a2-1">
+                    <div class="main-2a2-1a">
+                        Git Hub : Ultimate Master course
+                    </div>
+                    <div class="main-2a2-1b">
+                        Psychology is the science of mind and behaviour.Psychology includes the study for conscious and unconscious            
+                    </div>
+                    <div class="main-2a2-1c">
+                        Tags
+                        <div class="button1">Creative</div>
+                        <div class="button2">Design</div>
+                    </div>
+                </div>
+                <div class="main-2a2-2">
+                    Learn More
+                </div>
+            </div>
+        </div>
+        <div class="main-2e">
+            <div class="main-2e1">
+
+            </div>
+            <div class="main-2a2">
+                <div class="main-2a2-1">
+                    <div class="main-2a2-1a">
+                        Git Hub : Ultimate Master course
+                    </div>
+                    <div class="main-2a2-1b">
+                        Psychology is the science of mind and behaviour.Psychology includes the study for conscious and unconscious            
+                    </div>
+                    <div class="main-2a2-1c">
+                        Tags
+                        <div class="button1">Creative</div>
+                        <div class="button2">Design</div>
+                    </div>
+                </div>
+                <div class="main-2a2-2">
+                    Learn More
+                </div>
+            </div>
+        </div>
+        <div class="main-2f">
+            <div class="main-2f1">
+
+            </div>
+            <div class="main-2a2">
+                <div class="main-2a2-1">
+                    <div class="main-2a2-1a">
+                        Git Hub : Ultimate Master course
+                    </div>
+                    <div class="main-2a2-1b">
+                        Psychology is the science of mind and behaviour.Psychology includes the study for conscious and unconscious            
+                    </div>
+                    <div class="main-2a2-1c">
+                        Tags
+                        <div class="button1">Creative</div>
+                        <div class="button2">Design</div>
+                    </div>
+                </div>
+                <div class="main-2a2-2">
+                    Learn More
+                </div>
+            </div>
+        </div>
+        <div class="main-2g">
+            <div class="main-2g1">
+
+            </div>
+            <div class="main-2a2">
+                <div class="main-2a2-1">
+                    <div class="main-2a2-1a">
+                        Git Hub : Ultimate Master course
+                    </div>
+                    <div class="main-2a2-1b">
+                        Psychology is the science of mind and behaviour.Psychology includes the study for conscious and unconscious            
+                    </div>
+                    <div class="main-2a2-1c">
+                        Tags
+                        <div class="button1">Creative</div>
+                        <div class="button2">Design</div>
+                    </div>
+                </div>
+                <div class="main-2a2-2">
+                    Learn More
+                </div>
+            </div>
+        </div>
+        <div class="main-2h">
+            <div class="main-2h1">
+
+            </div>
+            <div class="main-2a2">
+                <div class="main-2a2-1">
+                    <div class="main-2a2-1a">
+                        Git Hub : Ultimate Master course
+                    </div>
+                    <div class="main-2a2-1b">
+                        Psychology is the science of mind and behaviour.Psychology includes the study for conscious and unconscious            
+                    </div>
+                    <div class="main-2a2-1c">
+                        Tags
+                        <div class="button1">Creative</div>
+                        <div class="button2">Design</div>
+                    </div>
+                </div>
+                <div class="main-2a2-2">
+                    Learn More
+                </div>
+            </div>
+        </div>
+        <div class="main-2i">
+            <div class="main-2i1">
+
+            </div>
+            <div class="main-2a2">
+                <div class="main-2a2-1">
+                    <div class="main-2a2-1a">
+                        Git Hub : Ultimate Master course
+                    </div>
+                    <div class="main-2a2-1b">
+                        Psychology is the science of mind and behaviour.Psychology includes the study for conscious and unconscious            
+                    </div>
+                    <div class="main-2a2-1c">
+                        Tags
+                        <div class="button1">Creative</div>
+                        <div class="button2">Design</div>
+                    </div>
+                </div>
+                <div class="main-2a2-2">
+                    Learn More
+                </div>
+            </div>
+        </div>
+     </div>
+ </div>
+</div>
+<!-- <div class="book-list" >
+    <h2 class="text-center">Search Result</h2>
+    <div id="list-output" class="">
+      <div class="row">
+        card 
+
+      </div>
+
+    </div>
+  </div> -->
+  <div id="cards">
+
+  </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+<script src="/responsive.js"></script>
+<script src="/index.js"></script>
+</body>
+</html>
