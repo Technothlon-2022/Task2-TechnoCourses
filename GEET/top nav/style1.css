@@ -1,0 +1,192 @@
+
+ #topnav {
+   color:#000000 ;
+   height: 67.25061798095703px;
+   width: 100% ;
+   position: absolute;
+  background-size: auto;
+ 
+   
+   background: #FFFAFA;
+   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.06);
+   display: flex;
+   flex-direction: row;
+
+}
+#logo{
+  
+  background: #FFFAFA;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.06);
+  margin-right:80.21px;
+  margin-left: 3.15%;
+  display: flex;
+  position: absolute;
+  
+} 
+
+#by {
+font: raleway;
+font-weight: 600;
+size: 17px;
+margin-top: 13.61px;
+margin-bottom: 14.81px;
+margin-left: 8px;
+margin-right: 32px;
+
+
+}
+#kll {
+  font:lato ;
+  font-weight: 300;
+  size: 11px;
+  margin-top: 4.45px;
+  /* margin-left: 8px;
+  margin-right: 32px; */
+
+}
+#discover {
+  font:moderat ;
+  font-weight: 500;
+  size: 16px;
+  color: #141D26;
+  margin-right: 4.96%;
+  width: 64px;
+height: 19px;
+padding-top: 24.38px;
+padding-bottom:23.87px ;
+margin-left: 22.34%;
+position:static;
+overflow:initial;
+text-decoration-color: #000000;
+text-decoration-line: none;
+}
+#courses {
+  font:moderat ;
+  font-weight: 500;
+  size: 16px;
+  position:static;
+  margin-right: 4.79%;
+  width: 61px;
+height: 18px;
+padding-top: 24.38px;
+color: #141D26; 
+padding-bottom:23.87px ;
+overflow:hidden;
+text-decoration-color: #000000;
+text-decoration-line: none;
+}
+#my {
+   position:static;
+  font:moderat ;
+  font-weight: 500;
+  size: 16px;
+  width: 6%;
+  height: 19px;
+  /* max-height: 19px; */
+margin-top: 24.38px;
+margin-bottom: 23.87;
+overflow:hidden;
+align-content: center;
+margin-right: 23.23%;
+color: #141D26;
+box-sizing:bordeinitial
+/* text-decoration-color: #000000;
+text-decoration-line: none; */
+
+
+}
+#my :hover {
+background-color:#d3d1d162;;
+  color: #141D26;
+  
+}
+#discover :hover{
+
+  color: #141D26;
+  background-color: #d3d1d162;
+}
+#courses :hover{
+  background-color:#d3d1d162;
+  color: #141D26;
+  
+}
+#searchs {
+   
+   overflow:hidden;
+position: static;
+width:19%;
+}
+#searchs form {
+
+  margin-top: 13.63px;
+  margin-bottom: 13.63px;
+  height: 40px;
+  width: 75%;
+  background: #FFFFFF;
+border: 0.5px solid #EBE6E6;
+border-radius: 5px;
+margin-right: 3.42%;
+}
+#L {
+  margin-top: 17.8px;
+  margin-bottom: 18.34px;
+  margin-left: 19px;
+  margin-right: 8px;
+  align-items: baseline;
+ 
+}
+#search{
+  height: 40px;
+  
+width: 100%;
+  max-width: 275.75px;
+  padding-left: 58px;
+  background-image:url(search.jpg);
+  background-position: left;
+  background-position-x: 18px;
+      border: #090a0c;
+      border-radius: 4px;
+overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: 15.5px,15.5px;
+  margin-right: 7.5px;
+  
+}
+#searchs form ::placeholder {
+  font:moderat ;
+  font-weight: 400;
+  size: 15px;
+  color: #4e5052;
+  margin-top: 11px;
+  margin-bottom: 11px;
+  overflow: initial;
+
+}
+#gift {
+
+  margin-left: 3%;
+  margin-top: 20.78px;
+  margin-bottom: 22.47px;
+position:initial;
+overflow:initial;
+}
+#bell {
+
+  margin-left:4% ;
+  margin-top: 20.78px;
+  margin-bottom: 22.47px;
+  position:initial;
+  overflow:initial;
+}
+#geet {
+
+  margin-left:4%;
+  margin-top: 13.63px;
+  margin-bottom: 15.32px;
+  margin-right:5% ;
+  position:initial;
+  overflow:initial;
+}
+.per {
+display: inline-block;
+}
