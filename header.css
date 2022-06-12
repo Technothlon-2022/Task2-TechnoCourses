@@ -1,0 +1,94 @@
+img {
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 3px;
+}
+
+.center {
+    flex=1;
+    margin: 0px 170px;
+}
+
+header {
+    display: flex;
+}
+
+.techno {
+    display: inline-block;
+    width: 70px;
+    background-color: pink;
+    font-size: 14px;
+    padding: 0px 0px;
+}
+
+li {
+    display: inline-block;
+    margin: 0px 15px;
+}
+
+.right {
+    display: inline-block;
+    margin-left: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+.but {
+    display: inline-block;
+    background-color: white;
+    opacity: 0.3;
+    height: 40px;
+    width: 250px;
+    border-radius: 8px;
+    text-align: left;
+}
+
+#gift {
+    padding-top: 20px;
+}
+
+#bell {
+    padding-top: 20px;
+}
+
+#profile {
+    padding-top: 20px;
+}
+
+.left-nav {
+    margin-top: 93px;
+    box-sizing: border-box;
+    position: absolute;
+    width: 264px;
+    height: 1081px;
+    left: 0px;
+    top: 0px;
+    background: #FFFAFA;
+    border: 0.63px solid #E2E3E4;
+}
+
+.home {
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 100px;
+    height: 20px;
+    width: 20px;
+}
+
+.homet {
+    display:inline-block;
+    margin-top: 30px;
+}
+.explore{
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 100px;
+    height: 20px;
+    width: 20px;
+}.exploret{
+    display:inline-block;
+    margin-top: 30px;
+}
