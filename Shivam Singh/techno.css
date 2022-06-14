@@ -5,9 +5,7 @@ header{
     justify-content:space-between;
     /* border:2px solid black; */
 }
-#ima{
-    padding-left: 20px;
-}
+
 
 .smallimage{
     height: 30px;
@@ -43,7 +41,9 @@ header{
     padding-right: 40px;
 }
 #ima{
-    padding-top: 10px;
+    padding-top: 15px;
+    height:40px;
+    padding-left: 40px;
 }
 
 .rightnav{
@@ -65,6 +65,7 @@ header{
 }
 .rightpart{
     /* background-color: pink; */
+    height:593px;
     background-color:pink;
 background-image: linear-gradient(to right,rgba(250, 209, 250, 1), rgba(248, 232, 232, 1));
 }
@@ -79,8 +80,16 @@ background-image: linear-gradient(to right,rgba(250, 209, 250, 1), rgba(248, 232
     justify-items: right;
 
 }
+#leftpart{
+    height:700px;
+    width:264px;
+}
+
 .Verticalnav{
-    padding:0px 70px;
+    padding:0px 40px;
+    width:120px;
+    margin:26px 0px;;
+    /* border:2px solid red; */
 }
 #rightp h1{
     /* border:2px solid blue; */
@@ -106,39 +115,91 @@ background-image: linear-gradient(to right,rgba(250, 209, 250, 1), rgba(248, 232
     display:inline;
     float:left;
     list-style: none;
-    background-color:white;
+    background-color:rgb(238, 235, 235);
     /* border:2px solid black; */
     justify-content: space-between;
+    
     margin-top: 50px;
     margin-left: 0px;
-    padding-top: 50px;
-    padding-bottom: 30px;
-    padding-right: 160px;
-    padding-left: 10px;
+    margin-right: 0px;
+    padding-top: 10px;
+    padding-bottom: 34px;
+    /* padding-right: 150px; */
+    padding-left: 27px;
+    padding-right: 28px;
     border-top: 2px solid block;
     border-bottom: 2px solid block;
-
     text-align: center;
-    
-    
+    width:200px;
+    height:20px;  
 }
 #rightthird{
-    displa
+    height:114px;
+    /* background-color: aquamarine; */
+    background-color:pink;
+    background-image: linear-gradient(to right,rgba(250, 209, 250, 1), rgba(248, 232, 232, 1));
+    justify-content: space-between;
 }
+
 .container{
     display:grid;
     grid-template-columns:repeat(3,1fr);
     grid-template-rows:repeat(3,1fr);
-    grid-column-gap:7rem;
+    grid-column-gap:0rem;
     grid-row-gap:3rem;
-    margin-left:232px;
-    margin-top:50px;
+    margin-left:300px;
+    margin-top:0px;
     
 }
 .box{
+    height:362.11px;
+    width:285px;
     border:2px solid black;
-    text-align: center;
-    padding:140px 40px;
+    padding:0px;
+    border-radius: 5px;
+    /* text-align: center; */
+    /* padding:140px 40px; */
 }
-
-
+.boximage{
+    padding-left: 0px;;
+    justify-content: center;
+    align-content: center;
+    height:149.4px;
+    width:285px;
+    padding:0px;
+    margin:0px;
+    
+}
+.git{
+    margin:0px 15px;
+}
+.psycho{
+    margin:0px 15px;
+}
+.tag{
+    display:flex;
+    flex-direction: row;
+}
+.tag ul li{
+    list-style: none;
+    float: left;
+    margin:0px 10px;
+    padding:1px 3px;
+    border-radius: 10px;
+}
+.creative{
+    color: pink;
+    border:2px solid pink;
+}
+.design{
+    color:aqua;
+    border:2px solid aqua;
+}
+.learn{
+    text-align: center;
+}
+.cardimage
+{   
+    height:149.4px;
+    width:285px;
+}
